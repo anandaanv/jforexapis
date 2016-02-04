@@ -1,0 +1,20 @@
+23:49:22.289 ERROR com.dukascopy.api.impl.connect.AuthorizationClient - 
+HttpServerResponse [response=Locked, responseCode=423, headerFields={Transfer-Encoding=[chunked], null=[HTTP/1.1 423 Locked], CF-RAY=[267cc96301362dd3-BOM], Server=[cloudflare-nginx], Connection=[keep-alive], Pragma=[no-cache], Last-Modified=[Wed, 20 Jan 2016 18:19:17 GMT], StatusCode=[423], Date=[Wed, 20 Jan 2016 18:19:20 GMT], StatusMessage=[423: Account is expired], Cache-Control=[no-cache, must-revalidate, no-store, max-age=0], Set-Cookie=[__cfduid=d1ec31d8a5e9c9e18fc4d8268a815bda21453313956; expires=Thu, 19-Jan-17 18:19:16 GMT; path=/; domain=.dukascopy.com; HttpOnly], Expires=[Thu, 01 Jan 1970 00:00:00 GMT], Content-Type=[text/html;charset=UTF-8]}]
+	at com.dukascopy.auth.client.http.HttpSRPClientProtocol.performStep3(HttpSRPClientProtocol.java:247)
+	at com.dukascopy.auth.client.SRPAuthClient.step3(SRPAuthClient.java:111)
+	at com.dukascopy.auth.client.SRPAuthClient.authenticate(SRPAuthClient.java:85)
+	at com.dukascopy.api.impl.connect.AuthorizationClient.getAPIsAndTicketUsingLogin_SRP6(AuthorizationClient.java:677)
+	at com.dukascopy.api.impl.connect.DCClientImpl.authenticate(DCClientImpl.java:549)
+	at com.dukascopy.api.impl.connect.DCClientImpl.connect(DCClientImpl.java:321)
+	at com.dukascopy.api.impl.connect.DCClientImpl.connect(DCClientImpl.java:311)
+	at singlejartest.Main.main(Main.java:120)
+23:50:46.160 ERROR com.dukascopy.api.impl.connect.AuthorizationClient - 
+HttpServerResponse [response=Locked, responseCode=423, headerFields={Transfer-Encoding=[chunked], null=[HTTP/1.1 423 Locked], CF-RAY=[267ccb70cd592deb-BOM], Server=[cloudflare-nginx], Connection=[keep-alive], Pragma=[no-cache], Last-Modified=[Wed, 20 Jan 2016 18:20:40 GMT], StatusCode=[423], Date=[Wed, 20 Jan 2016 18:20:44 GMT], StatusMessage=[423: Account is expired], Cache-Control=[no-cache, must-revalidate, no-store, max-age=0], Set-Cookie=[__cfduid=dd5dfb4f402a90f663129aeb14a1bb3031453314040; expires=Thu, 19-Jan-17 18:20:40 GMT; path=/; domain=.dukascopy.com; HttpOnly], Expires=[Thu, 01 Jan 1970 00:00:00 GMT], Content-Type=[text/html;charset=UTF-8]}]
+	at com.dukascopy.auth.client.http.HttpSRPClientProtocol.performStep3(HttpSRPClientProtocol.java:247)
+	at com.dukascopy.auth.client.SRPAuthClient.step3(SRPAuthClient.java:111)
+	at com.dukascopy.auth.client.SRPAuthClient.authenticate(SRPAuthClient.java:85)
+	at com.dukascopy.api.impl.connect.AuthorizationClient.getAPIsAndTicketUsingLogin_SRP6(AuthorizationClient.java:677)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.authenticateAPI(TesterClientImpl.java:492)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.connect(TesterClientImpl.java:272)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.connect(TesterClientImpl.java:263)
+	at singlejartest.TesterMain.main(TesterMain.java:96)

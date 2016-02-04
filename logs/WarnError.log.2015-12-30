@@ -1,0 +1,174 @@
+18:36:51.882 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+18:36:59.516 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:37:17.341 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:37:31.053 ERROR singlejartest.Main - C:\report.html (Access is denied)
+java.io.FileNotFoundException: C:\report.html (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1586)
+	at singlejartest.TesterMain$1.onStop(TesterMain.java:73)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$4.onStop(TesterClientImpl.java:636)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1824)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:487)
+	at java.lang.Thread.run(Unknown Source)
+18:38:37.531 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+18:38:41.338 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:38:45.390 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:53:29.082 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+18:53:34.930 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:53:42.767 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:55:13.370 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+18:55:19.169 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:55:23.214 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:55:27.300 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:60)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+18:55:27.312 ERROR com.dukascopy.api.impl.connect.TesterClientImpl$DefaultStrategyExceptionHandler - Exception thrown while running onStart method: "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:60)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+18:55:27.313 ERROR com.dukascopy.api.impl.connect.TesterClientImpl - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:60)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+18:56:22.374 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+18:56:27.198 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:56:31.126 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+18:56:34.080 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:60)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+18:56:34.090 ERROR com.dukascopy.api.impl.connect.TesterClientImpl$DefaultStrategyExceptionHandler - Exception thrown while running onStart method: "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:60)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+18:56:34.091 ERROR com.dukascopy.api.impl.connect.TesterClientImpl - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:60)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:01:39.677 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:01:45.053 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:01:49.244 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:03:57.963 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:04:02.596 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:04:06.681 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:05:08.484 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:05:13.315 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:05:17.449 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:05:22.038 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:05:22.045 ERROR com.dukascopy.api.impl.connect.TesterClientImpl$DefaultStrategyExceptionHandler - Exception thrown while running onStart method: "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:05:22.046 ERROR com.dukascopy.api.impl.connect.TesterClientImpl - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:05:40.595 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:05:46.321 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:05:50.294 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:05:54.486 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:05:54.493 ERROR com.dukascopy.api.impl.connect.TesterClientImpl$DefaultStrategyExceptionHandler - Exception thrown while running onStart method: "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:05:54.495 ERROR com.dukascopy.api.impl.connect.TesterClientImpl - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:06:24.911 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:06:29.555 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:06:33.499 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:06:36.459 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:06:36.469 ERROR com.dukascopy.api.impl.connect.TesterClientImpl$DefaultStrategyExceptionHandler - Exception thrown while running onStart method: "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:06:36.470 ERROR com.dukascopy.api.impl.connect.TesterClientImpl - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:07:16.385 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:07:22.197 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:07:28.523 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:07:36.265 ERROR com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:07:36.271 ERROR com.dukascopy.api.impl.connect.TesterClientImpl$DefaultStrategyExceptionHandler - Exception thrown while running onStart method: "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:07:36.272 ERROR com.dukascopy.api.impl.connect.TesterClientImpl - "to" parameter can't be greater than the time of the last formed bar for this instrument
+com.dukascopy.api.JFException: "to" parameter can't be greater than the time of the last formed bar for this instrument
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:875)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.TesterHistory.getBars(TesterHistory.java:851)
+	at singlejartest.HistoricalVolumesInChunks.onStart(HistoricalVolumesInChunks.java:69)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:347)
+	at java.lang.Thread.run(Unknown Source)
+19:08:25.613 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+19:08:31.606 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+19:08:35.987 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received

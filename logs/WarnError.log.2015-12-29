@@ -1,0 +1,26 @@
+17:29:35.350 ERROR com.dukascopy.api.impl.connect.AuthorizationClient - 
+HttpServerResponse [response=Unauthorized, responseCode=401, headerFields={Transfer-Encoding=[chunked], null=[HTTP/1.1 401 Unauthorized], CF-RAY=[25c556b4925d2dbb-BOM], Server=[cloudflare-nginx], Connection=[keep-alive], Pragma=[no-cache], Last-Modified=[Tue, 29 Dec 2015 11:59:25 GMT], StatusCode=[401], Date=[Tue, 29 Dec 2015 11:59:28 GMT], StatusMessage=[401: Auth failed], Cache-Control=[no-cache, must-revalidate, no-store, max-age=0], Set-Cookie=[__cfduid=db36436480814b34327f2261b63cf70d21451390364; expires=Wed, 28-Dec-16 11:59:24 GMT; path=/; domain=.dukascopy.com; HttpOnly], Expires=[Thu, 01 Jan 1970 00:00:00 GMT], Content-Type=[text/html;charset=UTF-8]}]
+	at com.dukascopy.auth.client.http.HttpSRPClientProtocol.performStep1(HttpSRPClientProtocol.java:146)
+	at com.dukascopy.auth.client.SRPAuthClient.step1(SRPAuthClient.java:205)
+	at com.dukascopy.auth.client.SRPAuthClient.authenticate(SRPAuthClient.java:57)
+	at com.dukascopy.api.impl.connect.AuthorizationClient.getAPIsAndTicketUsingLogin_SRP6(AuthorizationClient.java:677)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.authenticateAPI(TesterClientImpl.java:492)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.connect(TesterClientImpl.java:272)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.connect(TesterClientImpl.java:263)
+	at singlejartest.TesterMain.main(TesterMain.java:96)
+21:39:26.356 WARN  com.dukascopy.charts.data.datacache.CacheManager - Cannot delete lock file [C:\Users\Dell-PC\AppData\Local\JForex\.cache\lock0.lck]
+21:39:26.416 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+21:39:33.544 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+21:40:01.866 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+21:40:10.770 ERROR singlejartest.Main - C:\report.html (Access is denied)
+java.io.FileNotFoundException: C:\report.html (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1586)
+	at singlejartest.TesterMain$1.onStop(TesterMain.java:73)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$4.onStop(TesterClientImpl.java:636)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1824)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:487)
+	at java.lang.Thread.run(Unknown Source)

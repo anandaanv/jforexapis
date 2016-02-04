@@ -1,0 +1,213 @@
+17:30:14.807 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+17:30:15.762 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+17:31:14.154 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+17:31:24.161 ERROR singlejartest.Main - Failed to connect Dukascopy servers
+17:31:42.351 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+17:31:43.640 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+17:32:51.818 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+17:32:53.107 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+17:43:13.227 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=86400000,changedFrom=1451520000000,changedTo=1451563200000,timestamp=1451563993660)>
+17:43:13.275 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=3600000,changedFrom=1451559600000,changedTo=1451563200000,timestamp=1451563993668)>
+17:43:13.276 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=60000,changedFrom=1451559600000,changedTo=1451563200000,timestamp=1451563993685)>
+17:50:12.345 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=86400000,changedFrom=1451520000000,changedTo=1451563200000,timestamp=1451564412782)>
+17:50:12.394 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=3600000,changedFrom=1451559600000,changedTo=1451563200000,timestamp=1451564412790)>
+17:50:12.395 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=60000,changedFrom=1451559600000,changedTo=1451563200000,timestamp=1451564412804)>
+17:53:52.626 ERROR com.dukascopy.dds4.transport.client.ClientConnector - Exception caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:486)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Unknown Source)
+17:53:52.081 ERROR com.dukascopy.charts.data.datacache.time.TimeManager - Request to DFS timed out, timeout [10000], request [<ServerTimeRequestMessage(,requestId=45)>]
+com.dukascopy.charts.data.datacache.DataCacheException: Request to DFS timed out, timeout [10000], request [<ServerTimeRequestMessage(,requestId=45)>]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1346)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1265)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1366)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$4.run(TimeManager.java:245)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:53:59.049 ERROR com.dukascopy.dds4.transport.client.ClientConnector - Exception caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:486)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Unknown Source)
+17:54:01.386 ERROR com.dukascopy.dds4.transport.client.ClientConnector - Exception caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:486)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Unknown Source)
+18:20:46.510 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [1612] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [1612] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:141)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1285)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1265)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1366)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$4.run(TimeManager.java:245)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+18:20:47.819 WARN  com.dukascopy.charts.data.datacache.time.TimeManager - Local time was changed, was<2015-12-31 12:24:06:817>, now<2015-12-31 12:50:46:530>
+18:20:47.819 WARN  com.dukascopy.charts.data.datacache.time.TimeManager - Local time was changed, was<2015-12-31 12:24:06:817>, now<2015-12-31 12:50:46:530>
+18:20:47.818 WARN  com.dukascopy.charts.data.datacache.time.TimeManager - Local time was changed, was<2015-12-31 12:24:06:817>, now<2015-12-31 12:50:46:532>
+18:21:46.526 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:141)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1285)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1265)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1366)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$4.run(TimeManager.java:245)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+18:21:51.637 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+18:21:52.222 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+18:22:46.532 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:141)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1285)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1265)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1366)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$4.run(TimeManager.java:245)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+18:23:46.548 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:141)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1285)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1265)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1366)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$4.run(TimeManager.java:245)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+18:23:55.304 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+18:48:21.268 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=86400000,changedFrom=1451520000000,changedTo=1451566800000,timestamp=1451567901468)>
+18:48:21.268 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=86400000,changedFrom=1451520000000,changedTo=1451566800000,timestamp=1451567901468)>
+18:48:21.272 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=86400000,changedFrom=1451520000000,changedTo=1451566800000,timestamp=1451567901468)>
+18:48:21.755 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=3600000,changedFrom=1451563200000,changedTo=1451566800000,timestamp=1451567902129)>
+18:48:21.757 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=3600000,changedFrom=1451563200000,changedTo=1451566800000,timestamp=1451567902129)>
+18:48:21.765 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=3600000,changedFrom=1451563200000,changedTo=1451566800000,timestamp=1451567902129)>
+18:48:22.411 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=60000,changedFrom=1451563200000,changedTo=1451566800000,timestamp=1451567902790)>
+18:48:22.413 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=60000,changedFrom=1451563200000,changedTo=1451566800000,timestamp=1451567902790)>
+18:48:22.416 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - DFHistoryChangedMessage received from history server, but none is waiting for it: <DFHistoryChangedMessage(instrument=GBP/USD,period=60000,changedFrom=1451563200000,changedTo=1451566800000,timestamp=1451567902790)>
+19:58:06.717 WARN  com.dukascopy.charts.data.datacache.time.TimeManager - Local time was changed, was<2015-12-31 14:16:01:010>, now<2015-12-31 14:28:06:716>
+19:58:06.753 WARN  com.dukascopy.charts.data.datacache.time.TimeManager - Local time was changed, was<2015-12-31 14:16:01:010>, now<2015-12-31 14:28:06:752>
+19:58:06.759 WARN  com.dukascopy.charts.data.datacache.time.TimeManager - Local time was changed, was<2015-12-31 14:16:01:010>, now<2015-12-31 14:28:06:758>
+19:58:08.344 ERROR com.dukascopy.dds4.transport.client.ClientConnector - Exception caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:486)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Unknown Source)
+19:58:11.502 ERROR com.dukascopy.dds4.transport.client.ClientConnector - Exception caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:486)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Unknown Source)
+19:58:11.838 ERROR com.dukascopy.dds4.transport.client.ClientConnector - Exception caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:486)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Unknown Source)
+19:58:12.934 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+19:58:14.558 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+19:58:14.838 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+19:58:18.112 ERROR com.dukascopy.dds4.transport.client.TransportClient - Client disconnected, primary connection ping failed
+java.util.concurrent.TimeoutException: No response from server. Request: <HeartbeatRequestMessage(,synchRequestId=1191)>
+	at com.dukascopy.dds4.transport.client.TransportClient.controlSynchRequest(TransportClient.java:854)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingIoSession(TransportClient.java:615)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingPrimarySession(TransportClient.java:696)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingConnection(TransportClient.java:670)
+	at com.dukascopy.dds4.transport.client.TransportClient.access$200(TransportClient.java:59)
+	at com.dukascopy.dds4.transport.client.TransportClient$1.run(TransportClient.java:316)
+	at java.lang.Thread.run(Unknown Source)
+19:58:21.435 ERROR com.dukascopy.dds4.transport.client.TransportClient - Client disconnected, primary connection ping failed
+java.util.concurrent.TimeoutException: No response from server. Request: <HeartbeatRequestMessage(,synchRequestId=1248)>
+	at com.dukascopy.dds4.transport.client.TransportClient.controlSynchRequest(TransportClient.java:854)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingIoSession(TransportClient.java:615)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingPrimarySession(TransportClient.java:696)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingConnection(TransportClient.java:670)
+	at com.dukascopy.dds4.transport.client.TransportClient.access$200(TransportClient.java:59)
+	at com.dukascopy.dds4.transport.client.TransportClient$1.run(TransportClient.java:316)
+	at java.lang.Thread.run(Unknown Source)
+19:58:21.555 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+19:58:21.636 ERROR com.dukascopy.dds4.transport.client.TransportClient - Client disconnected, primary connection ping failed
+java.util.concurrent.TimeoutException: No response from server. Request: <HeartbeatRequestMessage(,synchRequestId=1229)>
+	at com.dukascopy.dds4.transport.client.TransportClient.controlSynchRequest(TransportClient.java:854)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingIoSession(TransportClient.java:615)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingPrimarySession(TransportClient.java:696)
+	at com.dukascopy.dds4.transport.client.TransportClient.pingConnection(TransportClient.java:670)
+	at com.dukascopy.dds4.transport.client.TransportClient.access$200(TransportClient.java:59)
+	at com.dukascopy.dds4.transport.client.TransportClient$1.run(TransportClient.java:316)
+	at java.lang.Thread.run(Unknown Source)
+19:58:24.293 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+19:58:24.505 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+20:03:10.378 WARN  com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Ticks <3> skipped due to slow previous ticks processing by platform
+20:08:44.376 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+20:08:46.797 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+20:10:02.143 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+20:10:03.551 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+20:11:17.021 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+20:11:19.757 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+20:13:55.579 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+20:13:58.489 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
+20:15:56.479 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+20:15:57.845 ERROR com.dukascopy.dds2.greed.market.LiveCurrencyMarketProcessingThread - Cannot create the liveCurrencyMarketWatcherThread, the properties is null.
